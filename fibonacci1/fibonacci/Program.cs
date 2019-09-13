@@ -10,7 +10,7 @@ namespace fibonacci
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("До какого числа считать ряд Фибоначчи?");
+            Console.WriteLine("До какого числа считать ряд Фибоначчи? Введите значение через enter");
             int number = Convert.ToInt32(Console.ReadLine());
 
             int perv = 1;
