@@ -1,16 +1,16 @@
-ï»¿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace fibonacci
+namespace ConsoleApp11
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ð”Ð¾ ÐºÐ°ÐºÐ¾Ð³Ð¾ Ñ‡Ð¸ÑÐ»Ð° ÑÑ‡Ð¸Ñ‚Ð°Ñ‚ÑŒ Ñ€ÑÐ´ Ð¤Ð¸Ð±Ð¾Ð½Ð°Ñ‡Ñ‡Ð¸?");
+            Console.WriteLine("Äî êàêîãî ÷èñëà ñ÷èòàòü ðÿä Ôèáîíà÷÷è?");
             int number = Convert.ToInt32(Console.ReadLine());
 
             int perv = 1;
@@ -22,14 +22,14 @@ namespace fibonacci
             while (number >= sum)
             {
                 sum = perv + vtor;
-                
-                    Console.Write("{0} ", sum);
-                    
-                        perv = vtor;
-                        vtor = sum;
-                    
-                }
-            
+
+                Console.Write("{0} ", sum);
+
+                perv = vtor;
+                vtor = sum;
+
+            }
+
             Console.ReadLine();
         }
     }
